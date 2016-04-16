@@ -369,7 +369,7 @@ public class FABToolbarLayout extends RelativeLayout {
         int xSource = toolbarPos.x + (toolbarSize.x - originalFABSize) / 2;
         int distanceVertical = (toolbarSize.y - fab.getHeight())/2;
         int verticalMarginToSet = VERTICAL_MARGIN - distanceVertical;
-        int yDest = toolbarPos.y - verticalMarginToSet;
+        int yDest = fabPos.y;
 
         int[] fabConPos = new int[2];
         fabContainer.getLocationOnScreen(fabConPos);
